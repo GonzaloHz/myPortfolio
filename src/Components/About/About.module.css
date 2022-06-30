@@ -1,0 +1,317 @@
+.divSuperContainer{
+    /* margin-top: 135px; */
+    color: transparent;
+}
+.container{
+    height: 100%;
+    background-color: #ffffff;
+    object-fit: contain;
+    margin-bottom: 0;
+    margin-top: 135px;
+    margin-left: 11.5%;
+    margin-right: 11.5%;
+    color: black;
+    padding-bottom: 18vh;
+    /* border: 1px solid black; */
+    box-shadow: 12px 12px 12px 12px rgba(29, 29, 29, 0.203);
+    
+}
+.container h1{
+    padding-top: 5%;
+    font-size: 250%;
+    text-align: center;
+}
+.divContainer{
+    display: flex;
+    flex-direction: row;
+}
+.percentTitle{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    min-height: 100vh;
+    width: 50vw;
+}
+.percentage{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+
+}
+.divText{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 50vw;
+    background-color: white;
+    /* background-color : whitesmoke; */
+    /* opacity: 0.5; */
+    /* background: rgba(255, 255, 255, 0.133); */
+}
+.imageDefault{
+    height: 80px;
+    width: 80px;
+}
+.subTitle{
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.divText p{
+    font-size: x-large;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-bottom: 0;
+}
+.atribute{
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-top: 2vh;
+    height: 3vh;
+    padding-bottom: 10vh;
+    padding-top: 2vh;
+    padding-left: 3vw;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.atribute div{
+    text-align: center;
+}
+.divBar{
+    display: flex;
+    flex-direction: row;
+}
+.firstBarAtribute{
+    margin-left: 2vw;
+    margin-right: 2vw;
+    background-color: gainsboro;
+    position: relative; 
+    width: 100%;
+    height: 1.5vh;
+}
+.firstBar{
+    /* margin-top: 3vh; */
+    margin-left: 2vw;
+    margin-right: 2vw;
+    background-color: #047aff;
+    height: 1.5vh;
+    width: 30.69vw;
+    /* width: 34.1vw; */
+    position: absolute;
+    z-index: 33;
+}
+.secondBar{
+    /* margin-top: 3vh; */
+    margin-left: 2vw;
+    margin-right: 2vw;
+    background-color: #047aff;
+    height: 1.5vh;
+    /* width: 25vw; */
+    width: 27.28vw;
+    position: absolute;
+    z-index: 33;
+}
+.thirdBar{
+    /* margin-top: 3vh; */
+    margin-left: 2vw;
+    margin-right: 2vw;
+    background-color: #047aff;
+    height: 1.5vh;
+    /* width: 25vw; */
+    width: 27.28vw;
+    position: absolute;
+    z-index: 33;
+}
+.forthBar{
+    /* margin-top: 3vh; */
+    margin-left: 2vw;
+    margin-right: 2vw;
+    background-color: #047aff;
+    height: 1.5vh;
+    /* width: 25vw; */
+    width: 28.99vw;
+    position: absolute;
+    z-index: 33;
+}
+.fifthBar{
+    /* margin-top: 3vh; */
+    margin-left: 2vw;
+    margin-right: 2vw;
+    background-color: #047aff;
+    height: 1.5vh;
+    /* width: 25vw; */
+    width: 27.28vw;
+    position: absolute;
+    z-index: 33;
+}
+.sixthBar{
+    /* margin-top: 3vh; */
+    margin-left: 2vw;
+    margin-right: 2vw;
+    background-color: #047aff;
+    height: 1.5vh;
+    /* width: 25vw; */
+    width: 25.58vw;
+    position: absolute;
+    z-index: 33;
+}
+.seventhBar{
+    /* margin-top: 3vh; */
+    margin-left: 2vw;
+    margin-right: 2vw;
+    background-color: #047aff;
+    height: 1.5vh;
+    /* width: 25vw; */
+    width: 28.99vw;
+    position: absolute;
+    z-index: 33;
+}
+.eighthBar{
+    /* margin-top: 3vh; */
+    margin-left: 2vw;
+    margin-right: 2vw;
+    background-color: #047aff;
+    height: 1.5vh;
+    /* width: 25vw; */
+    width: 25.58vw;
+    position: absolute;
+    z-index: 33;
+}
+.ninethBar{
+    /* margin-top: 3vh; */
+    margin-left: 2vw;
+    margin-right: 2vw;
+    background-color: #047aff;
+    height: 1.5vh;
+    /* width: 25vw; */
+    width: 25.58vw;
+    position: absolute;
+    z-index: 33;
+}
+@media(max-width:1280px){
+    .container{
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+}
+@media(max-width:912px){
+    .container{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .divContainer{
+        flex-direction: column;
+    }
+    .percentage, .divText{
+        width: 100%;
+        height: 100%;
+    }
+    .percentTitle{
+        width: 100%;
+    }
+    .percentage{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .imageDefault{
+        height: 150px;
+        width: 150px;
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+    .divText p{
+        font-size: 3rem;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    .subTitle{
+        font-size: 4rem;
+    }
+    .container h1{
+        font-size: 5rem;
+    }
+}
+@media(max-width:540px){
+    .container h1{
+        font-size: 250%;
+    }
+    .divText p{
+        font-size: x-large;
+    }
+    .subTitle{
+        font-size: xx-large;
+    }
+    .container{
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+    .divContainer{
+        flex-direction: column;
+    }
+    .percentage, .divText{
+        width: 100%;
+        height: 100%;
+    }
+    .percentTitle{
+        width: 100%;
+    }
+    .percentage{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .imageDefault{
+        height: 100px;
+        width: 100px;
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+}
+@media(max-width:414px){
+    .container{
+        margin-top: 135px;
+        margin-left: 2%;
+        margin-right: 2%;
+        color: black;
+    }
+    .divContainer{
+        /* display: flex; */
+        flex-direction: column;
+    }
+    .percentage, .divText{
+        width: 100%;
+        height: 100%;
+    }
+    .percentage{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+    }
+    .percentTitle{
+        width: 100%;
+    }
+    .divText p{
+        font-size: x-large;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        margin-bottom: 0;
+    }
+    .subTitle{
+        margin-top: 10vh;
+    }
+    .imageDefault{
+        height: 100px;
+        width: 100px;
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+}

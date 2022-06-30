@@ -1,0 +1,126 @@
+.container{
+    position: absolute;
+    /* color: black; */
+    width: 100%;
+    text-align: center;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0,0,0,0.75);
+    height: 2000px;
+    justify-content: flex-start;
+    padding-top: 2365px;
+}
+.DivTitle{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 25vw;
+    margin-bottom: 0;
+}
+.DivDescription{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+.DivDescription div{
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 30vh;
+}
+.container a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+}
+.DivDescription img{
+    padding-top: 3vh;
+    position: relative;
+    /* height: 400px; */
+    width: 280px;
+    height: auto;
+    max-width: 100%;
+}
+@media(max-width:1280px){
+    .container{
+        padding-top: 2450px;
+        height: 2200px;
+    }
+}
+@media(max-width:1024px){
+    .container{
+        padding-top: 2010px;
+        height: 2300px;
+    }
+}
+@media(max-width:912px){
+    .container{
+        padding-top: 5480px;
+        height: 4300px;
+    }
+    .DivDescription img{
+        width: 550px;
+    }
+    .container a{
+        font-size: 2.5rem;
+    }
+}
+@media(max-width:820px){
+    .container{
+        padding-top: 5155px;
+        height: 4000px;
+    }
+}
+@media(max-width:768px){
+    .container{
+        padding-top: 4900px;
+        height: 4500px;
+    }
+}
+@media(max-width:540px){
+    .container{
+        padding-top: 2880px;
+        height: 3300px;
+    }
+    .DivDescription img{
+        width: 350px;
+    }
+    .container a{
+        font-size: 2rem;
+    }
+}
+@media(max-width:414px){
+    .container{
+        padding-top: 3440px;
+        height: 3600px;
+    }
+}
+@media(max-width:412px){
+    .container{
+        padding-top: 3500px;
+    }
+}
+@media(max-width:393px){
+    .container{
+        padding-top: 3295px;
+    }
+}
+@media(max-width:390px){
+    .container{
+        padding-top: 3280px;
+    }
+}
+@media(max-width:375px){
+    .container{
+        padding-top: 2940px;
+        height: 3200px;
+    }
+    .DivDescription img{
+        padding-top: 0vh;
+    }
+}
+@media(max-width:360px){
+    .container{
+        padding-top: 3130px;
+    }
+}

@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+.divSuperContainer{
+    color: transparent;
+}
+.container{
+    margin-top: 135px;
+    color: black;
+    min-height: calc(100vh - 135px);
+    background-color: white;
+    margin-left: 11.5%;
+    margin-right: 11.5%;
+    box-shadow: 12px 12px 12px 12px rgba(29, 29, 29, 0.203);
+}
+.container h1{
+    padding-top: 5%;
+    font-size: 250%;
+    text-align: center;
+}
+.divBasic{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.divCard{
+    width: 320px;
+    height: 520px;
+    background-color: yellow;
+    border: 3px solid black;
+    margin: 5% 0rem;  
+    display: flex;
+    flex-direction: column;  
+}
+.imageExample{
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+    background-color: white;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.divCard:hover{
+    transform: scale(1.2);
+}
+.imageDescription{
+    height: 120px;
+    width: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 320px;
+}
+.descriptionContainer{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto Mono', monospace;
+}
+.descriptionContainer div, .descriptionContainer p{
+    height: 50%;
+    text-align: center;
+    
+}
+.descriptionContainer p{
+    font-size: 0.754rem;
+    /* margin-bottom: 0;
+    margin-top: 0; */
+    color: #047aff;
+}
+.descriptionTitle{
+    font-size: x-large;
+    color: black;
+}
+.buttom{
+    width: 45px;
+    height: 45px;
+    border-radius: 200%;
+    font-size: xx-large;
+    background-color: whitesmoke;
+    border: 2px solid #047aff;
+    cursor: pointer;
+    color: #047aff;
+    margin-top: 100%;
+}
+.buttom:hover{
+    background-color: #047aff;
+    color: black;
+    border: 2px solid black;
+}
+@media(max-width:1280px){
+    .container{
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    .divCard:hover{
+        transform: none;
+    }
+}
+@media(max-width:912px){
+    .container{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .container h1{
+        font-size: 5rem;
+    }
+}
+@media(max-width:540px){
+    .container{
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+    .container h1{
+        font-size: 250%;
+    }
+}
+@media(max-width:414px){
+    .container{
+        margin-top: 135px;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}

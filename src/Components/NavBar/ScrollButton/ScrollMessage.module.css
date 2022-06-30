@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+.container{
+    height: auto;
+    width: auto;
+    position: fixed;
+    z-index: 999;
+    bottom: 3.5vh;
+    left: 3.5vw;
+    border-radius: 50px;
+}
+.container button{
+    background-color: #047aff;
+    color: white;
+    border-radius: 50px;
+    padding: 10px;
+    border: 1px solid #047aff;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1rem;
+}

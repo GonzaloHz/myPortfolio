@@ -1,0 +1,82 @@
+.subTitle{
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.from{
+    display: flex;
+    flex-direction: column;
+    margin: 2vh 2vw;
+}
+.from input, .from textarea{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    font-size: medium;
+    border: 2px solid gainsboro;
+    padding: 2vh 1vw;
+}
+.from textarea{
+    height: 18vh;
+    font-size: large;
+}
+.buttom{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-size: large;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 200px;
+    cursor: pointer;
+    background-color: #047aff;
+    color: white;
+}
+.buttom:hover{
+    background-color: white;
+    color: #047aff;
+    border: 2px solid #047aff;
+}
+@media(max-width:912px){
+    .subTitle{
+        font-size: 4rem;
+    }
+    .buttom{
+        margin-left: 24.5vw;
+    }
+    .from input{
+        font-size: 2.3rem;
+    }
+    .from textarea{
+        font-size: 2.3rem;
+    }
+    .buttom{
+        font-size: xx-large;
+        width: 300px;
+        margin-left: 20vw;
+    }
+}
+@media(max-width:540px){
+    .from input, .from textarea{
+        font-size: medium;
+    }
+    .buttom{
+        font-size: large;
+        margin-left: 20vw;
+        width: 200px;
+    }
+    .subTitle{
+        font-size: xx-large;
+    }
+}
+@media (max-width:414px) {
+    .buttom{
+        margin-left: 20vw;
+    }
+}

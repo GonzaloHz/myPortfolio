@@ -1,0 +1,208 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
+.container {
+    text-align: center;
+    /* background-image: url("./images/MoonVideoHD.gif"); */
+    /* background-position: ; */
+    /* height: auto;
+    width: 100vh; */
+    /* height: 100vh;
+    width: auto;
+    background-position: absolute; */
+  }
+  .Video{
+    
+    position: relative;
+    width: 100%;
+    left: 0%;
+    top: 0%;
+    object-fit: contain;
+    overflow: hidden;
+    
+  }
+  .VideoMobile{
+    width: 0%;
+  }
+  .TextPresentation{
+    z-index: 20;
+    font-size: 6rem;
+    position: absolute;
+    color: black;
+    padding-top: 36vh;
+    padding-left: 27vw;
+    font-family: 'Teko', sans-serif;
+  }
+  .SubTitle{
+    padding-left: 8vw;
+    font-size: 0.52em;
+    display: block;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 16ch;
+    
+    animation: typing 3s steps(16),
+    blink .3s infinite step-end alternate;
+    overflow: hidden;
+  }
+  .TextPresentation button{
+    background-color: #047aff;
+    color: white;
+    border: 1px solid #047aff;
+    padding: 10px;
+    border-radius: 50px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1rem;
+  }
+  .TextPresentation button:hover{
+    background-color: #0479ffb9;
+    border: 2px solid #047aff;
+    color: white;
+  }
+  @keyframes typing {
+    from{width: 0;}
+  }
+  @keyframes blink{
+    50%{border-color: transparent;}
+  }
+  @media(max-width:1280px){
+    .Video{
+      height: 100vh;
+      padding-top: 5vh;
+      max-width: auto;
+    }
+    .TextPresentation{
+      padding-top: 42vh;
+      padding-left: 29vw;
+      font-size: 5rem;
+    }
+}
+@media(max-width:1024px){
+  .Video{
+    padding-top: 2vh;
+    max-width: auto;
+  }
+  .TextPresentation{
+    padding-top: 42vh;
+    padding-left: 28vw;
+    font-size: 4.2rem;
+  }
+}
+@media(max-width:912px){
+  .Video{
+    width: 0%;
+    }
+    .VideoMobile{
+      position: absolute;
+      width: 100vw;
+      height: auto;
+      max-height: 100vh;
+      left: 0%;
+      top: 0%;
+      object-fit: cover;
+    }
+    .TextPresentation{
+      padding-top: 42vh;
+      padding-left: 15vw;
+      font-size: 6rem;
+    }
+    .SubTitle{
+      padding-left: 16vw;
+    }
+}
+@media(max-width:820px){
+  .TextPresentation{
+    font-size: 5.5rem;
+  }
+  .SubTitle{
+    padding-left: 14vw;
+  }
+}
+@media(max-width:768px){
+  .TextPresentation{
+    font-size: 5rem;
+  }
+  .SubTitle{
+    padding-left: 14vw;
+  }
+}
+@media(max-width:540px){
+  .Video{
+  width: 0%;
+  }
+  .VideoMobile{
+    position: absolute;
+    width: 100vw;
+    height: auto;
+    max-height: 100vh;
+    left: 0%;
+    top: 0%;
+    /* margin-top: -127px; */
+    /* margin-right: 0px; */
+    object-fit: cover;
+  }
+  .TextPresentation{
+    padding-top: 42vh;
+    padding-left: 15vw;
+    font-size: 3.6rem;
+  }
+  .SubTitle{
+    padding-left: 16vw;
+  }
+}
+  @media(max-width:414px){
+    .Video{
+    width: 0%;
+    }
+    .VideoMobile{
+      position: absolute;
+      width: 100.2%;
+      height: auto;
+      left: 0%;
+      top: 0%;
+      margin-top: 127px;
+      margin-right: 0px;
+    }
+    .TextPresentation{
+      color: black;
+      padding-top: 52vh;
+      padding-left: 13vw;
+      font-size: 3rem;
+    }
+  }
+@media (max-width:412px) {
+    .TextPresentation{
+      padding-top: 50vh;
+      padding-left: 12.5vw;
+      font-size: 2.95rem;
+    }
+    .SubTitle{
+      padding-left: 14vw;
+    }
+  }
+@media (max-width:393px) {
+    .TextPresentation{
+      padding-top: 52vh;
+      padding-left: 13vw;
+      font-size: 2.85rem;
+    }
+  }
+@media (max-width:390px) {
+    .TextPresentation{
+      padding-top: 52vh;
+      padding-left: 13vw;
+      font-size: 2.8rem;
+    }
+  }
+@media (max-width:375px) {
+  .TextPresentation{
+    padding-top: 63vh;
+    padding-left: 15vw;
+    font-size: 2.5em;
+  }
+}
+@media (max-width:360px) {
+  .TextPresentation{
+    padding-top: 55vh;
+    padding-left: 14vw;
+  }
+}

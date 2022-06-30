@@ -1,0 +1,78 @@
+.App {
+  /* text-align: center; */
+  /* background-image: url("./images/MoonVideoHD.gif"); */
+  /* background-position: ; */
+  /* height: auto;
+  width: 100vh; */
+  /* height: 100vh;
+  width: auto;
+  background-position: absolute; */
+  scroll-snap-type: y mandatory;
+  height: 100%;
+  /* overflow-y: scroll; */
+  background-color: rgba(245, 245, 245, 0.774);
+  /* background-color: orange; */
+}
+.Home{
+  width: 100%;
+  height: calc( 100vh - 110px );
+  position: relative;
+  top:0px;
+  /* scroll-snap-type: y mandatory; */
+  scroll-snap-align: end;
+  /* scroll-snap-type: none; */
+  margin-bottom: 1%;
+  background-color: black;
+}
+.Sections{
+  /* margin-top: 1%; */
+  /* background-color: aqua; */
+  width: 100%;
+  margin-top: 0%;
+  padding-top: 0%;
+  min-height: calc( 100vh - 110px );
+  position: relative;
+  top:110px;
+  /* overflow-y: scroll; */
+  scroll-snap-align: start;
+  /* scrollbar-width: none; */
+  /* background-color: orange; */
+  
+}
+.Sections1{
+  background-image: url("./images/EarthHD10.jpg");
+  /* background-repeat: repeat;
+  background-size: cover; */
+  width: 100%;
+  margin-top: 0%;
+  padding-top: 0%;
+  min-height: calc( 100vh - 110px );
+  position: relative;
+  top:110px;
+  scroll-snap-align: start;
+}
+/* .Video{
+  
+  position: relative;
+  width: 100%;
+  left: 0%;
+  top: 0%;
+  object-fit: contain;
+  overflow: hidden;
+  
+}
+.VideoMobile{
+  width: 0%;
+}
+@media(max-width:390px){
+  .Video{
+  width: 0%;
+  }
+  .VideoMobile{
+    position: relative;
+    width: 100%;
+    height: auto;
+    left: 0%;
+    top: 0%;
+  }
+} */
